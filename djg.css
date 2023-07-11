@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+  /* min-height: 100vh - the element should occupy the web browser viewport height;
+  need it, so that vertical alignment works; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+  border-style: solid;
+  border-radius: 15px;
+  /* using % width makes it responsive */
+  width: 85%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 35px;
+}
+
+.joke {
+  font-size: 25px;
+  margin: 40px;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgba(255, 255, 255, .5);
+}
